@@ -103,6 +103,7 @@ a {
 /* Header */
 .header {
   padding-bottom: 88px;
+  background-color: #EBFDFF;
 }
 .header .wrapper-header {
   padding-top: 41px;
@@ -181,8 +182,14 @@ a {
 }
 
 /* Banner */
-.wrapper-banner {
+.wrapper-background-banner {
+  width: 100%;
+  background-color: #EBFDFF;
   padding-top: 88px;
+  padding-bottom: 229px;
+}
+
+.wrapper-banner {
   width: 100%;
   display: flex;
   align-items: flex-end;
@@ -228,6 +235,71 @@ a {
   max-width: 100%;
 }
 
+/* Global part */
+.wrapper-global-part {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 214px;
+  padding-bottom: 190px;
+}
+.wrapper-global-part .wrapper-global-part-content {
+  width: 49%;
+}
+.wrapper-global-part .wrapper-global-part-content h2 {
+  font-family: "Champagne & Limousines";
+  font-size: 3.125vw;
+  line-height: 80px;
+  letter-spacing: 0.05em;
+  color: #083C3E;
+  padding-bottom: 63px;
+  padding-top: 30px;
+}
+.wrapper-global-part .wrapper-global-part-content p {
+  font-size: 1.354vw;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  color: #7C7C7C;
+  padding-bottom: 63px;
+}
+.wrapper-global-part .wrapper-global-part-content button {
+  background-color: transparent;
+  font-size: 0.99vw;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #1093A1;
+  cursor: pointer;
+  padding: 13px 40px;
+  border-radius: 25.5px;
+  border: 1px solid #1093A1;
+}
+.wrapper-global-part .wrapper-global-part-blocks {
+  width: 39.5%;
+  flex-direction: column;
+}
+.wrapper-global-part .wrapper-global-part-blocks .wrapper-block {
+  padding: 40px 60px;
+  background: #F8F8F8;
+  border: 1px solid #E1E1E1;
+}
+.wrapper-global-part .wrapper-global-part-blocks .wrapper-block h4 {
+  font-family: "Champagne & Limousines";
+  font-size: 1.146vw;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding-bottom: 14px;
+}
+.wrapper-global-part .wrapper-global-part-blocks .wrapper-block p {
+  font-size: 0.833vw;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #7C7C7C;
+}
+.wrapper-global-part .wrapper-global-part-blocks .wrapper-block + .wrapper-block {
+  margin-top: 19px;
+}
+
 /* Media */
 @media (min-width: 1264px) and (max-width: 1400px) {
   .header {
@@ -238,8 +310,9 @@ a {
     padding: 10px 30px;
   }
 
-  .wrapper-banner {
+  .wrapper-background-banner {
     padding-top: 10px;
+    padding-bottom: 80px;
   }
 
   .wrapper-banner .wrapper-banner-content h1 {
@@ -248,6 +321,10 @@ a {
 
   .wrapper-banner .wrapper-banner-content .wrapper-banner-list {
     padding-bottom: 40px;
+  }
+
+  .wrapper-global-part {
+    padding-top: 80px;
   }
 }
 
