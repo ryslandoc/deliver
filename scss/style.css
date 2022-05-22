@@ -300,6 +300,85 @@ a {
   margin-top: 19px;
 }
 
+/* Services */
+.wrapper-services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 266px;
+}
+.wrapper-services .wrapper-services-title {
+  width: 100%;
+  text-align: center;
+}
+.wrapper-services .wrapper-services-title h2 {
+  font-family: "Champagne & Limousines";
+  font-size: 3.125vw;
+  line-height: 81px;
+  letter-spacing: 0.05em;
+  color: #083C3E;
+  padding-bottom: 90px;
+}
+.wrapper-services .wrapper-services-blocks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+.wrapper-services .wrapper-services-blocks .wrapper-block {
+  width: 24%;
+  padding: 70px 40px;
+  background: #F8F8F8;
+}
+.wrapper-services .wrapper-services-blocks .wrapper-block .wrapper-services-img {
+  width: 44%;
+  margin-bottom: 43px;
+}
+.wrapper-services .wrapper-services-blocks .wrapper-block .wrapper-services-img img {
+  width: 100%;
+  max-width: 100%;
+}
+.wrapper-services .wrapper-services-blocks .wrapper-block h4 {
+  font-family: "Champagne & Limousines";
+  font-size: 1.25vw;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #083C3E;
+  padding-bottom: 20px;
+}
+.wrapper-services .wrapper-services-blocks .wrapper-block p {
+  font-size: 0.833vw;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #7C7C7C;
+  padding-bottom: 30px;
+}
+.wrapper-services .wrapper-services-blocks .wrapper-block a {
+  background-color: transparent;
+  border: unset;
+  border-bottom: 1px solid black;
+  padding: 0 0 5px 0;
+  cursor: pointer;
+  color: #000000;
+  font-size: 0.833vw;
+}
+.wrapper-services .wrapper-services-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wrapper-services .wrapper-services-button button {
+  padding: 20px 81px;
+  background: #111111;
+  border-radius: 35px;
+  font-size: 0.99vw;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  border: none;
+}
+
 /* Media */
 @media (min-width: 1264px) and (max-width: 1400px) {
   .header {
@@ -307,11 +386,11 @@ a {
   }
 
   .header .wrapper-header .wrapper-menu .wrapper-btn .wrapper-register button {
-    padding: 10px 30px;
+    padding: 10px 20px;
   }
 
   .wrapper-background-banner {
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 80px;
   }
 
@@ -325,6 +404,44 @@ a {
 
   .wrapper-global-part {
     padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .wrapper-global-part .wrapper-global-part-content h2 {
+    padding-bottom: 30px;
+  }
+
+  .wrapper-global-part .wrapper-global-part-content p {
+    padding-bottom: 40px;
+    line-height: 40px;
+  }
+
+  .wrapper-global-part .wrapper-global-part-blocks .wrapper-block p {
+    line-height: 24px;
+  }
+
+  .wrapper-global-part .wrapper-global-part-blocks .wrapper-block {
+    padding: 25px 45px;
+  }
+
+  .wrapper-services .wrapper-services-title h2 {
+    padding-bottom: 40px;
+  }
+
+  .wrapper-services .wrapper-services-blocks .wrapper-block {
+    padding: 45px 30px;
+  }
+
+  .wrapper-services .wrapper-services-blocks .wrapper-block p {
+    line-height: 28px;
+  }
+
+  .wrapper-services .wrapper-services-blocks {
+    padding-bottom: 50px;
+  }
+
+  .wrapper-services .wrapper-services-button button {
+    padding: 15px 50px;
   }
 }
 

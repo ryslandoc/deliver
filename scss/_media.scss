@@ -4,10 +4,10 @@
     padding-bottom: 50px;
   }
   .header .wrapper-header .wrapper-menu .wrapper-btn .wrapper-register button {
-    padding: 10px 30px;
+    padding: 10px 20px;
   }
   .wrapper-background-banner {
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 80px;
   }
   .wrapper-banner .wrapper-banner-content h1 {
@@ -18,5 +18,34 @@
   }
   .wrapper-global-part {
     padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .wrapper-global-part .wrapper-global-part-content h2 {
+    padding-bottom: 30px;
+  }
+  .wrapper-global-part .wrapper-global-part-content p {
+    padding-bottom: 40px;
+    line-height: 40px;
+  }
+  .wrapper-global-part .wrapper-global-part-blocks .wrapper-block p {
+    line-height: 24px;
+  }
+  .wrapper-global-part .wrapper-global-part-blocks .wrapper-block {
+    padding: 25px 45px;
+  }
+  .wrapper-services .wrapper-services-title h2 {
+    padding-bottom: 40px;
+  }
+  .wrapper-services .wrapper-services-blocks .wrapper-block {
+    padding: 45px 30px;
+  }
+  .wrapper-services .wrapper-services-blocks .wrapper-block p {
+    line-height: 28px;
+  }
+  .wrapper-services .wrapper-services-blocks {
+    padding-bottom: 50px;
+  }
+  .wrapper-services .wrapper-services-button button {
+    padding: 15px 50px;
   }
 }
