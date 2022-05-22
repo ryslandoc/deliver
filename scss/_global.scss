@@ -1,0 +1,50 @@
+/* Import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Colors */
+$basic-color: #000000;
+$title-color: #083C3E;
+$paragraph-color: #7C7C7C;
+$button-color: #111111;
+$hover-color: #3AC5CE;
+
+/* Font */
+$main-font: 'Roboto', sans-serif;
+$title-font: 'Champagne & Limousines';
+
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src: local('Champagne & Limousines'),
+  url('/font/champagne_limousines_bold.ttf') format('truetype');
+}
+
+/* General */
+body {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  color: $basic-color;
+  height: 100%;
+}
+
+.main {
+  position: relative;
+}
+
+.wrapper-header {
+  width: 92.3%;
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.wrapper-container {
+  width: 74%;
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}

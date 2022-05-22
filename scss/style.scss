@@ -1,0 +1,106 @@
+@import "global";
+@import "reset";
+
+/* Header */
+.header {
+  padding-bottom: 88px;
+
+  .wrapper-header {
+    padding-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .wrapper-logo {
+      .logo {
+        a {
+          font-family: $main-font;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.250vw;
+          line-height: 28px;
+          letter-spacing: 0.05em;
+          color: #111111;
+        }
+      }
+    }
+
+    .wrapper-menu {
+      width: 64.8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .wrapper-nav {
+        width: 44.1%;
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+
+          li {
+            display: inline-block;
+
+            a {
+              color: $basic-color;
+              font-size: 0.990vw;
+              line-height: 22px;
+              letter-spacing: 0.05em;
+              transition: 0.5s;
+
+              &:hover {
+                color: $hover-color;
+                transition: 0.5s;
+              }
+
+              &.active {
+                color: $hover-color;
+                padding-bottom: 5px;
+                border-bottom: 2px solid $hover-color;
+              }
+            }
+          }
+        }
+      }
+
+      .wrapper-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .wrapper-login {
+          button {
+            font-size: 0.990vw;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+          }
+        }
+
+        .wrapper-register {
+          button {
+            font-size: 0.990vw;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+            background-color: $button-color;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 13px 40px;
+            border-radius: 25.5px;
+            margin-left: 7px;
+          }
+        }
+      }
+    }
+
+    .menu-btn {
+      display: none;
+    }
+  }
+}
+
+@import "media";
+
