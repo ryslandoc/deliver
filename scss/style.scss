@@ -1,6 +1,15 @@
 @import "global";
 @import "reset";
 
+h2 {
+  font-family: $title-font;
+  font-size: 3.125vw;
+  line-height: 81px;
+  letter-spacing: 0.05em;
+  color: $title-color;
+  padding-bottom: 80px;
+}
+
 /* Header */
 .header {
   padding-bottom: 88px;
@@ -177,12 +186,6 @@
     width: 49%;
 
     h2 {
-      font-family: $title-font;
-      font-size: 3.125vw;
-      line-height: 80px;
-      letter-spacing: 0.05em;
-      color: $title-color;
-      padding-bottom: 63px;
       padding-top: 30px;
     }
 
@@ -245,20 +248,11 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
+  padding-bottom: 130px;
 
   .wrapper-services-title {
     width: 100%;
     text-align: center;
-
-    h2 {
-      font-family: $title-font;
-      font-size: 3.125vw;
-      line-height: 81px;
-      letter-spacing: 0.05em;
-      color: $title-color;
-      padding-bottom: 90px;
-    }
   }
 
   .wrapper-services-blocks {
@@ -332,6 +326,90 @@
   }
 }
 
+/* Reviews */
+.wrapper-reviews {
+  width: 100%;
+  padding-bottom: 100px;
+
+  .wrapper-reviews-title {
+    text-align: center;
+  }
+
+  .wrapper-reviews-blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .wrapper-reviews-block {
+      width: 32%;
+
+      .client-info {
+        position: relative;
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background: #F8F8F8;
+        border: 1px solid #EDEDED;
+        margin-bottom: 30px;
+
+        &:after {
+          content: url("../images/review-decor.svg");
+          position: absolute;
+          bottom: -22px;
+        }
+
+        .wrapper-img {
+          margin-right: 25px;
+          width: 22.1%;
+
+          img {
+            border-radius: 50%;
+            width: 100%;
+            height: 60px;
+            object-fit: cover;
+            max-width: 100%;
+          }
+        }
+
+        .wrapper-info {
+          h4 {
+            font-weight: 700;
+            font-size: 1.042vw;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+            color: $basic-color;
+          }
+
+          p {
+            font-size: 0.833vw;
+            line-height: 16px;
+            letter-spacing: 0.05em;
+            color: $paragraph-color;
+          }
+        }
+      }
+
+      .review-info {
+        h4 {
+          font-weight: 700;
+          font-size: 1.042vw;
+          line-height: 35px;
+          letter-spacing: 0.05em;
+          color: $basic-color;
+        }
+
+        p {
+          font-size: 0.833vw;
+          line-height: 22px;
+          letter-spacing: 0.05em;
+          color: $paragraph-color;
+        }
+      }
+    }
+  }
+}
+
 /* Footer */
 .wrapper-footer-content {
   width: 100%;
@@ -388,6 +466,7 @@
       ul {
         li {
           display: inline-block;
+
           a {
             color: #FFFFFF;
           }

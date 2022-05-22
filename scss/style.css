@@ -101,6 +101,15 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-family: "Champagne & Limousines";
+  font-size: 3.125vw;
+  line-height: 81px;
+  letter-spacing: 0.05em;
+  color: #083C3E;
+  padding-bottom: 80px;
+}
+
 /* Header */
 .header {
   padding-bottom: 88px;
@@ -247,12 +256,6 @@ a {
   width: 49%;
 }
 .wrapper-global-part .wrapper-global-part-content h2 {
-  font-family: "Champagne & Limousines";
-  font-size: 3.125vw;
-  line-height: 80px;
-  letter-spacing: 0.05em;
-  color: #083C3E;
-  padding-bottom: 63px;
   padding-top: 30px;
 }
 .wrapper-global-part .wrapper-global-part-content p {
@@ -306,19 +309,11 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
+  padding-bottom: 130px;
 }
 .wrapper-services .wrapper-services-title {
   width: 100%;
   text-align: center;
-}
-.wrapper-services .wrapper-services-title h2 {
-  font-family: "Champagne & Limousines";
-  font-size: 3.125vw;
-  line-height: 81px;
-  letter-spacing: 0.05em;
-  color: #083C3E;
-  padding-bottom: 90px;
 }
 .wrapper-services .wrapper-services-blocks {
   width: 100%;
@@ -379,6 +374,75 @@ a {
   color: #FFFFFF;
   border: none;
   cursor: pointer;
+}
+
+/* Reviews */
+.wrapper-reviews {
+  width: 100%;
+  padding-bottom: 100px;
+}
+.wrapper-reviews .wrapper-reviews-title {
+  text-align: center;
+}
+.wrapper-reviews .wrapper-reviews-blocks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-reviews .wrapper-reviews-blocks .wrapper-reviews-block {
+  width: 32%;
+}
+.wrapper-reviews .wrapper-reviews-blocks .wrapper-reviews-block .client-info {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #F8F8F8;
+  border: 1px solid #EDEDED;
+  margin-bottom: 30px;
+}
+.wrapper-reviews .wrapper-reviews-blocks .wrapper-reviews-block .client-info:after {
+  content: url("../images/review-decor.svg");
+  position: absolute;
+  bottom: -22px;
+}
+.wrapper-reviews .wrapper-reviews-blocks .wrapper-reviews-block .client-info .wrapper-img {
+  margin-right: 25px;
+  width: 22.1%;
+}
+.wrapper-reviews .wrapper-reviews-blocks .wrapper-reviews-block .client-info .wrapper-img img {
+  border-radius: 50%;
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+  max-width: 100%;
+}
+.wrapper-reviews .wrapper-reviews-blocks .wrapper-reviews-block .client-info .wrapper-info h4 {
+  font-weight: 700;
+  font-size: 1.042vw;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.wrapper-reviews .wrapper-reviews-blocks .wrapper-reviews-block .client-info .wrapper-info p {
+  font-size: 0.833vw;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #7C7C7C;
+}
+.wrapper-reviews .wrapper-reviews-blocks .wrapper-reviews-block .review-info h4 {
+  font-weight: 700;
+  font-size: 1.042vw;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.wrapper-reviews .wrapper-reviews-blocks .wrapper-reviews-block .review-info p {
+  font-size: 0.833vw;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #7C7C7C;
 }
 
 /* Footer */
