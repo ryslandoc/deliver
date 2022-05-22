@@ -102,5 +102,62 @@
   }
 }
 
+/* Banner */
+.wrapper-banner {
+  padding-top: 88px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  .wrapper-banner-content {
+    width: 39.4%;
+
+    h1 {
+      font-family: $title-font;
+      font-size: 3.646vw;
+      line-height: 81px;
+      letter-spacing: 0.05em;
+      color: $title-color;
+      padding-bottom: 85px;
+    }
+
+    .wrapper-banner-list {
+      padding-bottom: 86px;
+
+      ol {
+        padding-left: 25px;
+
+        li {
+          font-size: 1.146vw;
+          line-height: 26px;
+          letter-spacing: 0.05em;
+        }
+
+        li + li {
+          padding-top: 35px;
+        }
+      }
+    }
+
+    a {
+      font-size: 1.302vw;
+      line-height: 29px;
+      letter-spacing: 0.05em;
+      color: $basic-color;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .wrapper-banner-img {
+    width: 51.9%;
+
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
 @import "media";
 

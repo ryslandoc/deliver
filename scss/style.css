@@ -180,6 +180,54 @@ a {
   display: none;
 }
 
+/* Banner */
+.wrapper-banner {
+  padding-top: 88px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.wrapper-banner .wrapper-banner-content {
+  width: 39.4%;
+}
+.wrapper-banner .wrapper-banner-content h1 {
+  font-family: "Champagne & Limousines";
+  font-size: 3.646vw;
+  line-height: 81px;
+  letter-spacing: 0.05em;
+  color: #083C3E;
+  padding-bottom: 85px;
+}
+.wrapper-banner .wrapper-banner-content .wrapper-banner-list {
+  padding-bottom: 86px;
+}
+.wrapper-banner .wrapper-banner-content .wrapper-banner-list ol {
+  padding-left: 25px;
+}
+.wrapper-banner .wrapper-banner-content .wrapper-banner-list ol li {
+  font-size: 1.146vw;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+}
+.wrapper-banner .wrapper-banner-content .wrapper-banner-list ol li + li {
+  padding-top: 35px;
+}
+.wrapper-banner .wrapper-banner-content a {
+  font-size: 1.302vw;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+.wrapper-banner .wrapper-banner-img {
+  width: 51.9%;
+}
+.wrapper-banner .wrapper-banner-img img {
+  width: 100%;
+  max-width: 100%;
+}
+
 /* Media */
 @media (min-width: 1264px) and (max-width: 1400px) {
   .header {
@@ -188,6 +236,18 @@ a {
 
   .header .wrapper-header .wrapper-menu .wrapper-btn .wrapper-register button {
     padding: 10px 30px;
+  }
+
+  .wrapper-banner {
+    padding-top: 10px;
+  }
+
+  .wrapper-banner .wrapper-banner-content h1 {
+    padding-bottom: 40px;
+  }
+
+  .wrapper-banner .wrapper-banner-content .wrapper-banner-list {
+    padding-bottom: 40px;
   }
 }
 
